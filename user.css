@@ -9,15 +9,14 @@ body {
 
 .outer-container {
     min-height: 60vh;
-    max-width: 70vw;
-    border: 1px solid black;
+    /* max-width: 70vw; */
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     box-shadow: -5px 6px 5px 0px;
     flex-wrap: wrap;
-    padding:  20px 10px;
+    padding:  10px;
     position: relative;
 
 }
@@ -31,26 +30,21 @@ body {
     align-items: center;
     line-height: 32px;
     padding: 10px;
+    font-size: 16px;
 
 }
 
-
-
-th {
-    max-width: 40%;
-}
 
 td {
-    max-width: 45ch;
     font-style: italic;
 }
 
 .avatar-container {
     text-align: center;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .avatar {
@@ -58,15 +52,21 @@ td {
     margin-bottom: -24px;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    margin-top: 16px;
+}
+
 .edit-icon {
     height: 20px;
-    margin-top: 20px;
     cursor: pointer;
 }
 
 .settings-icon {
     width: 25px;
-    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -79,4 +79,5 @@ td {
     background-color: lightgray;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: -1px 1px 5px 0px;
 }
