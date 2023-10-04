@@ -75,8 +75,8 @@ td {
     top: 15px;
     right: 25px;
     border: 2px solid black;
-    padding: 0 4px;
-    background-color: lightgray;
+    padding: 0 5px;
+    background-color: rgb(241, 238, 238);
     cursor: pointer;
     font-weight: bold;
     box-shadow: -1px 1px 5px 0px;
